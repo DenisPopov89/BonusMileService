@@ -2,7 +2,7 @@ package org.example;
 
 public class BonusMilesService {
     public int calculate(int cost) {
-        int milePerCost = 33;
+        int milePerCost = 20;
 
         int miles = cost / milePerCost;
         return miles;
